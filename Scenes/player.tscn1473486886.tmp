@@ -8,10 +8,6 @@
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_v0iea")
-speed = 15.0
-jump_velocity = 10.0
-mouse_sensitivity = 0.001
-camera_pivot_path = NodePath("Camera3D")
 
 [node name="Node3D" type="Node3D" parent="."]
 
@@ -23,4 +19,4 @@ mesh = SubResource("CapsuleMesh_cvnsp")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.836682, 0)
-fov = 80.0
+fov = 90.0
